@@ -1749,6 +1749,13 @@ function closeWelcome() {
   overlay.classList.add('hidden');
   setTimeout(() => overlay.style.display = 'none', 600);
 }
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.getRegistrations().then(function(registrations) {
+    for (let registration of registrations) {
+      registration.unregister();
+    }
+  });
+}
 </script>
 
 </body>
