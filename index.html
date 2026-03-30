@@ -1,21 +1,18 @@
 
+
 <!DOCTYPE html>
 <html lang="sr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Mirna Luka</title>
-<meta name="description" content="Pomoć pri paničnom napadu – tehnike disanja, uzemljenje i afirmacije">
-
-<!-- UKLONJEN PWA (NE DIRATI) -->
 
 <meta name="theme-color" content="#061020">
 
 <style>
 body {
   margin:0;
-  font-family:Arial, sans-serif;
+  font-family: Arial, sans-serif;
   background:#061020;
   color:white;
   text-align:center;
@@ -25,33 +22,38 @@ body {
   padding:20px;
 }
 
+input {
+  width:90%;
+  padding:15px;
+  border-radius:15px;
+  border:none;
+  margin-top:20px;
+}
+
 .button {
   margin-top:20px;
   padding:15px;
-  border-radius:15px;
-  background:linear-gradient(90deg,#6aa8ff,#d28cff);
+  border-radius:20px;
+  background: linear-gradient(90deg,#6a8dff,#d26cff);
   color:white;
   border:none;
   font-size:18px;
+  width:90%;
 }
 
 .card {
-  margin-top:15px;
-  padding:15px;
-  border-radius:15px;
-  background:#10233f;
-}
-
-.locked {
-  opacity:0.5;
+  margin:15px;
+  padding:20px;
+  border-radius:20px;
+  background:#0f233f;
+  opacity:0.6;
 }
 
 .install-box {
   margin-top:20px;
   padding:15px;
   border-radius:15px;
-  background:#10233f;
-  font-size:14px;
+  background:#132c4d;
 }
 </style>
 
@@ -62,29 +64,26 @@ body {
 <div class="container">
 
 <h1>Mirna Luka</h1>
-
 <p>Tvoje utočište u trenutku bure.</p>
 
-<input placeholder="Upiši svoje ime (opciono)" style="padding:10px;border-radius:10px;border:none;width:80%;">
+<input placeholder="Upiši svoje ime (opciono)">
 
 <div class="install-box">
 👉 Za lak pristup dodaj na početni ekran<br><br>
-👉 Android: Instaliraj ili Dodaj na početni ekran<br>
-👉 iPhone: Podeli → Dodaj na početni ekran
+👉 <b>Android:</b> Instaliraj ili Dodaj na početni ekran<br>
+👉 <b>iPhone:</b> Podeli → Dodaj na početni ekran
 </div>
 
 <button class="button">UĐI U MIRNU LUKU →</button>
 
-<div class="card locked">Vežbe disanja (Premium)</div>
-<div class="card locked">Uzemljenje (Premium)</div>
-<div class="card locked">Afirmacije (Premium)</div>
-<div class="card locked">Šta se dešava (Premium)</div>
-
-<br><br>
+<div class="card">Vežbe disanja (Premium)</div>
+<div class="card">Uzemljenje (Premium)</div>
+<div class="card">Afirmacije (Premium)</div>
+<div class="card">Šta se dešava (Premium)</div>
 
 <h2>Otključaj dodatne vežbe</h2>
 
-<input placeholder="Unesi email" style="padding:10px;border-radius:10px;border:none;width:80%;">
+<input placeholder="Unesi email">
 
 <button class="button">Otključaj – 1,99€</button>
 
